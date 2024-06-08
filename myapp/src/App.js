@@ -38,10 +38,10 @@ const App = () => {
 
 <BrowserRouter basename='/Test_friends'>
 <Routes>
-  <Route exact path="/Test_friends" element={<Home/>}></Route>
+  <Route exact path="/" element={<Home/>}></Route>
   <Route exact path="/slider" element={<Slider/>}></Route>
   <Route exact path="/detail" element={<Detail/>}></Route>
-  <Route exact path="/deatil1" element={<Detail1/>}></Route>
+  <Route exact path="/detail1" element={<Detail1/>}></Route>
   <Route exact path="/detail2" element={<Detail2/>}></Route>
   <Route exact path="/detail3" element={<Detail3/>}></Route>
   <Route exact path="/detail4" element={<Detail4/>}></Route>
