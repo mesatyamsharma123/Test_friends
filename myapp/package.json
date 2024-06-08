@@ -1,7 +1,9 @@
 {
-  "name": "myapp",
+  
+  "name": "Test_friends",
+  "homepage" : "https://mesatyamsharma123.github.io/Test_friends",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@custom-react-hooks/use-window-size": "^1.4.19",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
