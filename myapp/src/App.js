@@ -38,7 +38,7 @@ const App = () => {
 
 <BrowserRouter basename='/Test_friends'>
 <Routes>
-  <Route exact path="/" element={<Home/>}></Route>
+  <Route exact path="/Test_friends" element={<Home/>}></Route>
   <Route exact path="/slider" element={<Slider/>}></Route>
   <Route exact path="/detail" element={<Detail/>}></Route>
   <Route exact path="/detail1" element={<Detail1/>}></Route>
